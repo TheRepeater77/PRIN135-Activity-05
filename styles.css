@@ -19,6 +19,25 @@ header {
     border-bottom: 4px solid #EAD8B1;
 }
 
+#gallery{
+    max-height: 100vh;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+    align-content: center;
+
+}
+
+#gallery img {
+    margin: 5px;
+    border-radius: 5px;
+    max-height:30vh;
+    max-width: 30vw;
+}
+
 footer {
     max-width: 1200px;
     margin: 0 auto;
